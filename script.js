@@ -55,8 +55,8 @@ function filterRangeInPlace (arrNumber, a, b) {
         }
     }
 }
-let arrNumber = [1,2,3,4,5,6,7]
-filterRangeInPlace(arrNumber, 2, 4)
+let arrNumber = [5,3,8,1]
+filterRangeInPlace(arrNumber, 1, 4)
 console.log(arrNumber)
 
 console.log('------------- # 11')
@@ -66,7 +66,7 @@ function stringToArr (toArry, separator){
     return strToArr
 }
 
-console.log(stringToArr('Hello my frend', ' ',))
+console.log(stringToArr('Hello my friend', ' ',))
 
 console.log('------------- # 12')
 
