@@ -70,8 +70,7 @@ console.log(stringToArr('Hello my friend', ' ',))
 console.log('------------- # 12')
 
 function slArray(arr, startIndex, endIndex) {
-        number =  arr.slice(startIndex, endIndex)
-        return number
+        return arr.slice(startIndex, endIndex)
 }
 
 arrNumber = [1,2,3,4,5,6,7]
