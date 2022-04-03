@@ -90,9 +90,3 @@ function sumAll(...arrSummAll){
 }
 
 console.log(sumAll(1,2))
-
-console.log('------------- # 13')
-const userMaks = {};
-
-userMaks['userName'] = 'user2112';
-console.log(userMaks)
