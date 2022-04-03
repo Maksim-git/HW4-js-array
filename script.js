@@ -62,8 +62,7 @@ console.log(arrNumber)
 console.log('------------- # 11')
 
 function stringToArr (toArry, separator){
-    let strToArr = toArry.split(separator)
-    return strToArr
+    return toArry.split(separator)
 }
 
 console.log(stringToArr('Hello my friend', ' ',))
@@ -91,3 +90,9 @@ function sumAll(...arrSummAll){
 }
 
 console.log(sumAll(1,2))
+
+console.log('------------- # 13')
+const userMaks = {};
+
+userMaks['userName'] = 'user2112';
+console.log(userMaks)
